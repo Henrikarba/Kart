@@ -1,0 +1,48 @@
+# Game Configuration Constants
+
+# Screen dimensions
+SCREEN_WIDTH = 1200
+SCREEN_HEIGHT = 800
+FPS = 60
+
+# Colors (RGB)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+GRAY = (128, 128, 128)
+DARK_GRAY = (64, 64, 64)
+LIGHT_GRAY = (192, 192, 192)
+ORANGE = (255, 165, 0)
+PURPLE = (128, 0, 128)
+BROWN = (139, 69, 19)
+DARK_GREEN = (0, 100, 0)
+WATER_BLUE = (0, 191, 255)
+
+# Track settings
+TRACK_WIDTH = 80
+CHECKPOINT_RADIUS = 30
+TOTAL_LAPS = 3
+
+# Kart settings
+KART_SIZE = 20
+MAX_SPEED = 8
+ACCELERATION = 0.3
+DECELERATION = 0.8
+TURN_SPEED = 4
+OFF_TRACK_SPEED_PENALTY = 0.3
+WATER_RESPAWN = True
+
+# AI settings
+AI_REACTION_TIME = 0.1
+AI_SPEED_VARIATION = 0.8
+
+# Game states
+MENU = "menu"
+PLAYING = "playing"
+PAUSED = "paused"
+FINISHED = "finished"
+CUSTOMIZATION = "customization"
+TRACK_SELECT = "track_select"
