@@ -1,4 +1,4 @@
-# SecretKart
+# Kart
 
 A Mario Kart style racing game built with Python and Pygame.
 
